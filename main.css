@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    box-shadow: 0px 2px 6px  rgba(44, 57, 121, 0.1);
+    border-radius: 0px 0px 20px 20px;
+    background: #FFFFFF;
+
+}
+
+.field-menu {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 12px;
+    color: #000;
+}
+
+.field-menu:hover {
+    background: #60C2AA;
+    color: #fff;
+
+}
+
+.field-menu-act {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 12px;
+    background: #60C2AA;
+    color: #fff;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/*  */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+/* gamers */
+
+.box-gamers {
+    background: #FFFFFF;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 60px;
+    padding: 24px;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    border-radius: 20px;  
+}
+
+.text-box {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+
+}
+
+.gamer {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.gamer p {
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.processing {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+
+/* field of play */
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 188px;
+    margin-left: 89px;
+}
+
+#area {
+    width: 624px;
+    margin: 0 auto;
+    font-size: 0;
+
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    line-height: 2em;
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    margin: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    border-radius: 12px;
+    vertical-align: middle;
+
+}
+
+.currentPlayer {
+    font-size: 18px;
+    margin-top: 40px;
+    display: flex;
+    position: absolute;
+    left: 760px;
+    justify-content: center;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    background: #373745;
+    padding: 12px;
+    border-radius: 12px;
+    width: 400px;
+    color: #fff;
+}
+
+/* timer */
+
+#timer {
+    position: absolute;
+    left: 915px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    background: #EDEDED;
+    padding: 24px;
+    font-size: 34px;
+    border-radius: 12px;
+}
+
+.buttom-timer {
+    position: absolute;
+    left: 1080px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    background: #EDEDED;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+
+/* player rating */
+
+.box-raiting {
+    position: absolute;
+    left: 25%;
+
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    border-radius: 40px;
+}
+
+.header-raiting h2 {
+
+    font-weight: 700;
+    font-size: 24px;
+    padding: 32px;
+}
+
+.table {
+    text-align: left;
+    margin: 0 40px 40px 40px;
+    
+}
+.name-stolb-table{
+    box-shadow: inset 0px -1px 0px #EEEFF5;
+}
+
+.name-stolb-table th {
+    padding-bottom: 16px;
+    padding-right: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.fio-table {
+    width: 40%;
+}
+
+.all-game-table {
+    width: 15%;
+}
+
+.wins-table {
+    width: 15%;
+}
+
+.loss-table {
+    width: 15%;
+}
+
+.posc-table {
+    width: 15%;
+}
+
+.info-table {
+    box-shadow: inset 0px -1px 0px #EEEFF5;
+}
+
+.info-table td {
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.win {
+    color:#69B849;
+}
+
+.loss {
+    color:#E93E3E ;
+}
+
+
+
+  

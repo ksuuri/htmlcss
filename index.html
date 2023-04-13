@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Крестики нолики</title>
+</head>
+<body>
+    <header> 
+        <div class="logo"><a href="#!"><img src="./icons/logo.svg" alt=""></a></div>
+
+       <div class="menu">
+            <a class="field-menu-act" href="index.html">Игровое поле</a>
+            <a class="field-menu" href="reiting.html">Рейтинг</a>
+            <a class="field-menu" href="active players.html">Активные игроки</a>
+            <a class="field-menu" href="#">История игр</a>
+            <a class="field-menu" href="#">Список игроков</a>
+       </div>
+
+       <div class="icon-exit"><a href="main.html"><img src="./icons/Vector.svg" alt=""></a></div>
+    </header>
+
+        <div id="timer">
+            05:00
+        </div>     
+        <button class="buttom-timer" onclick="start()">Начать игру</button>
+
+    <div class="container">
+        <div class="box-gamers">
+            <p class="text-box">Игроки</p>
+            <div class="list-gamers">
+                <div class="gamer">
+                    <img src="./icons/zero.svg" alt="">
+                    <p>Пупкин Владлен Игоревич <br><span class="processing">63% побед</span></p>
+                </div>
+                <div class="gamer">
+                    <img src="./icons/Union.svg" alt="">
+                    <p>Плюшкина Екатерина Викторовна<br><span class="processing">23% побед</span></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="content">
+            <div id="area"></div>
+            
+        </div>
+        
+    </div>
+
+    <div class="currentPlayer">
+        <span>Ходит <span id="curPlyr">X</span></span>
+    </div>
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
